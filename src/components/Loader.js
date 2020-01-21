@@ -9,7 +9,6 @@ const Loader = () => {
    const green = useRef(null);
    
    useEffect(() => {
-      debugger
       const tl = gsap.timeline() //creating my timeline reference 
       //animating the blue and yellow at the same time, to repeat forever
       tl.fromTo([blue.current, yellow.current], {y: 20}, {y: -20, yoyo: true, repeat: -1})
