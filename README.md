@@ -1,3 +1,8 @@
+Thanks to LogRocket's Tutorial on this! 
+https://blog.logrocket.com/animations-react-hooks-greensock/
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
