@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import gsap from 'gsap'
 
 const LogRocket = () => {
-  return (
+
+   const tl = gsap.timeline()
+
+   useEffect(() => {
+      tl.from("#rocket", {duration: 1, y: 50})
+   })
+  
+   return (
     <svg width="200px" height="40px">
       <g
         id="Page-1"
