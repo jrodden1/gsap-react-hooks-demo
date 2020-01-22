@@ -27,8 +27,8 @@ const Loader = () => {
             <circle ref={green} cx="133.4" cy="16.6" r="16.1" fill="#009e52" />
          </svg>
          {/* Added ability to play and pause */}
-         <button onClick={() => tl.play()}>Play</button>
-         <button onClick={() => tl.pause()}>Pause</button>
+         <button className="btn" onClick={() => tl.play()}>Play</button>
+         <button className="btn" onClick={() => tl.pause()}>Pause</button>
       </Fragment>
    );
 }
